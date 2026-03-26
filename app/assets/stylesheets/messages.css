@@ -17,6 +17,21 @@
   width: 100%;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name{
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.create-room{
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue;
 }
 
 .side_bar{
@@ -24,6 +39,14 @@
   width: 100%;
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.rooms{
+  color: white;
+  margin: 20px 0 40px;
+  display: block;
+  text-decoration: none;
 }
 
 .main_wrapper{
@@ -38,6 +61,7 @@
   width: 100%;
   background-color: #ffffff;
   padding: 0 40px;
+
 }
 
 .main_chat{
