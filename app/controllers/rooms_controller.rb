@@ -1,5 +1,6 @@
 class RoomsController < ApplicationController
 
+ 
   def new
     @room = Room.new
   end
@@ -11,6 +12,11 @@ class RoomsController < ApplicationController
     else
       render :new, status: :unprocessable_entity
     end
+
+
+
+
+
   end
 
 
