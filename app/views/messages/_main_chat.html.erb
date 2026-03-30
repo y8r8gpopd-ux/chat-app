@@ -3,7 +3,7 @@
 
   <div class="main_header">
     <h2 class="room_name"> <%= @room.name %> </h2>
-    <%= link_to 'チャットルームを終了する', '/', class: 'chat_exit' %>
+    <%= link_to "チャットを終了する", room_path(@room), data: { turbo_method: :delete }, class: 'chat_exit' %>
   </div>
 
   <div class="main_chat">

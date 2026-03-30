@@ -48,7 +48,12 @@
   color: white;
   margin: 20px 0 40px;
   display: block;
+  
+}
+
+.room-name-link{
   text-decoration: none;
+  color: white;
 }
 
 .main_wrapper{
